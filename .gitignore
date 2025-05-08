@@ -1,0 +1,19 @@
+# Ignore node_modules directory for both client and server
+/frontend/node_modules/
+/server/node_modules/
+
+# Ignore .env files (containing API keys, sensitive data, etc.)
+/frontend/.env
+/server/.env
+
+# Ignore build artifacts, logs, and other files not necessary for version control
+/client/build/
+/server/build/
+/server/logs/
+/server/*.log
+
+# Ignore npm debug logs
+npm-debug.log*
+
+# Ignore macOS system files
+.DS_Store
